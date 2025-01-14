@@ -1,21 +1,23 @@
-let XP = 10010;
+let XP = 1010;
+let Nome = "Cleytin Destruidor de Galaxias";
+let Rank = "";
 
 if (XP < 1000){
-  console.log("Ferro");
+  Rank = "Ferro";
 } else if (XP >= 1001 && XP <= 2000) {
-  console.log("Bronze");
+  Rank = "Bronze";
 } else if (XP >= 2001 && XP <= 5000) {
-  console.log("Prata");
+  Rank = "Prata";
 } else if (XP >= 5001 && XP <= 7000) {
-  console.log("Ouro");
+  Rank = "Ouro";
 } else if (XP >= 7001 && XP <= 8000) {
-  console.log("Platina");
+  Rank = "Platina";
 } else if (XP >= 8001 && XP <= 9000) {
-  console.log("Ascendente");
+  Rank = "Ascendente";
 } else if (XP >= 9001 && XP <= 10000) {
-  console.log("Imortal");
+  Rank = "Imortal";
 } else {
-  console.log("Radiante")
+  Rank = "Radiante";
 }
 
-console.log("Fim do código");
+console.log("O Herói de nome " + Nome + " está no nível de " + Rank );
